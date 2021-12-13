@@ -1,4 +1,5 @@
 import 'package:fl00/screens/ex0/ex0.dart';
+import 'package:fl00/screens/ex1/ex1.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(const MyApp());
@@ -10,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       title: "fl00-lite",
-      home: Ex0(),
+      home: Ex1(),
     );
   }
 }
